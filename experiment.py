@@ -40,7 +40,7 @@ if args.dataset in ['BreastCancer']:
     (train_data, train_labels), (test_data, test_labels) = BreastCancer(flag=True) # 3D data
   else:
     (train_data, train_labels), (test_data, test_labels) = BreastCancer(flag=False) # 2D data in bag
-elif args.dataset in ['MUSK1','MUSK2','Fox','Tiger','Elephant','Bonds','Atoms','Chains']: 
+elif args.dataset in ['MUSK1','MUSK2','Fox','Tiger','Elephant']: 
   if args.dataset == 'MUSK1': 
     tmp = np.load('./data/musk_1.npz',allow_pickle=True)
   elif args.dataset == 'MUSK2': 
