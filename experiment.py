@@ -35,7 +35,7 @@ weight_decay = args.decay
 set_all_seeds(args.seed)
 num_class = 1
 
-if args.dataset in ['BreastCancer', 'Colon']:
+if args.dataset in ['BreastCancer']:
   if args.loss in ['CELoss', 'AUCMLoss']:
     (train_data, train_labels), (test_data, test_labels) = BreastCancer(flag=True) # 3D data
   else:
