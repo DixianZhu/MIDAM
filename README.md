@@ -21,7 +21,7 @@ CUDA_VISIBLE_DEVICES=0 python3 experiment.py --dataset=Fox  --loss=MIDAM-smx  --
 
 
 ## Others:
-Please make sure you have the data on the data folder (some small datasets are already included). Please refer to the experiment.py and datasets.py for how to load the data. 
+Please make sure you have the data on the data folder (some smaller datasets are already included). Please refer to the experiment.py and datasets.py for how to load the data. 
 
 
 ## Citation:
